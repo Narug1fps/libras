@@ -473,10 +473,6 @@ export default function Home() {
                   className="h-full w-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 border border-gray-200 bg-white p-8 shadow-lg">
-                <div className="font-mono text-4xl font-bold text-red-600">ISO 9001</div>
-                <div className="text-sm text-gray-600">Certificado</div>
-              </div>
             </div>
           </div>
         </div>
