@@ -10,7 +10,7 @@ const products = {
   "lixas-em-folha": {
   "title": "Lixas em Folha",
   "description": "Lixas em folha de alta qualidade para acabamento manual profissional",
-  "image": "/sandpaper-sheets-stack-professional.jpg",
+  "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTsPGxcz4Oa0PO0Q35-gxFNRuRyeqiLJ5umKeJbf2-DcNjE4cSePeEYc9KBITX",
   "fullDescription": "Nossas lixas em folha são fabricadas com óxido de alumínio de alta pureza, garantindo durabilidade excepcional e acabamento uniforme. Ideais para trabalhos manuais em madeira, metal, massa corrida e preparação de superfícies para pintura.",
   "features": [
     "Óxido de alumínio de alta pureza",
@@ -38,22 +38,22 @@ const products = {
     {
       "name": "Lixa d’Água",
       "description": "Indicada para lixamento úmido de superfícies metálicas, automotivas e pintura. Resistente à água e ao desgaste prolongado.",
-      "image": "/lixa-folha-agua.jpg"
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPUQU4RgvVUEQimbXd2_fR_Pl75IA2VCQRMLjovQFbkpCa3Xhb4TEHnlpGzVRE"
     },
     {
       "name": "Lixa para Ferro",
       "description": "Desenvolvida para lixamento de metais ferrosos e não ferrosos. Proporciona alto poder de corte e longa durabilidade.",
-      "image": "/lixa-folha-ferro.jpg"
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTZCDfTNnVnBS6Mw8IhJ6hK48Ni-IuVWl2AEY-2C2IyjrjfoID2kbDBzl91bqx"
     },
     {
       "name": "Lixa a Seco",
       "description": "Ideal para lixamento manual de madeira e massa corrida. Excelente desempenho em superfícies secas.",
-      "image": "/lixa-folha-seco.jpg"
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTsPGxcz4Oa0PO0Q35-gxFNRuRyeqiLJ5umKeJbf2-DcNjE4cSePeEYc9KBITX"
     },
     {
       "name": "Lixa para Massa e Madeira",
       "description": "Perfeita para nivelamento e acabamento fino em superfícies de massa corrida, MDF e madeira em geral.",
-      "image": "/lixa-folha-massa-madeira.jpg"
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrC_TK9ZACM9GjagclZDvOdBPv3auX9KN-T4JTbYArjnHY4l2_HKfAq5yKwhnB"
     }
   ]
 },
@@ -61,7 +61,7 @@ const products = {
   "discos-abrasivos": {
     title: "Discos Abrasivos",
     description: "Discos de alta performance para lixadeiras orbitais e roto-orbitais",
-    image: "/sanding-discs-circular-abrasive-professional.jpg",
+    image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTF21cTCcOG2IS3Si_8_HN9oV4oWtC47GM-bxPehGBq02wAtYaf-ndSjtWKFGn",
     fullDescription:
       "Discos abrasivos desenvolvidos especialmente para uso em lixadeiras elétricas. Sistema de fixação por velcro garante troca rápida e segura. Grãos uniformemente distribuídos proporcionam acabamento profissional.",
     features: [
@@ -91,62 +91,62 @@ const products = {
         name: "Disco de Fibra",
         description:
           "Disco robusto com base de fibra vulcanizada, ideal para desbaste agressivo em metais e soldas. Alta resistência e durabilidade.",
-        image: "/disco-fibra.jpg",
+        image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0QbPgZsLP8uqLfcs2hGeXZbktrWVWhsXx9_HPoDUAqiYYDr85_dTnNEcy8N1x",
       },
       {
         name: "Disco de Velcro",
         description:
           "Sistema de fixação rápida por velcro, perfeito para lixadeiras orbitais. Troca rápida e eficiente entre diferentes grãos.",
-        image: "/disco-velcro.jpg",
+        image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTF21cTCcOG2IS3Si_8_HN9oV4oWtC47GM-bxPehGBq02wAtYaf-ndSjtWKFGn",
       },
       {
         name: "Disco de Corte",
         description:
           "Disco fino para corte preciso de metais ferrosos e não ferrosos. Alta velocidade de corte com mínima geração de rebarbas.",
-        image: "/disco-corte.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRX3sQfNGGZw0OObr2FYHRLZGtiFKUwwF4yiZG6lTSOA0Ezra6YiepXggU-cRQS",
       },
       {
         name: "Disco de Flap",
         description:
           "Disco com lâminas sobrepostas que proporcionam acabamento progressivo. Ideal para desbaste e acabamento em uma única operação.",
-        image: "/disco-flap.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3Iz8dzEPLM49EmNEIJu0HIm8us5nNkLnrMjtvXo4NCa97UodUIrxL6QqP68uO",
       },
       {
         name: "Disco Diamantado",
         description:
           "Disco com partículas de diamante para corte e desbaste de materiais duros como concreto, granito, cerâmica e vidro.",
-        image: "/disco-diamantado.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThgG_LOCCeS9VdgNsF9Bkn8WuKyG5wNgDgQvdiDz_6VCJ_0AcpcAi3gpE0i9r6",
       },
       {
         name: "Disco Roloc",
         description:
           "Sistema de fixação rápida por encaixe, permitindo troca instantânea. Ideal para trabalhos que exigem agilidade.",
-        image: "/disco-roloc.jpg",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrxIJnE-mH7GYDJFmgALnLIhWhpSsdz5a-JcwtYQQwpdhNesUzz5yYeY--Fc_J",
       },
       {
         name: "Disco a Úmido",
         description:
           "Desenvolvido para uso com água, proporcionando acabamento fino sem empastamento. Ideal para polimento automotivo.",
-        image: "/disco-umido.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlyiyeeyLeC9bdEzWVDORyR_Dcy6oF8EzG7rmy-29ilEHjYtq_deZOCqPs0Q6m",
       },
       {
         name: "Disco de Pano",
         description:
           "Base de tecido flexível que se adapta a superfícies irregulares. Excelente para acabamento de peças curvas.",
-        image: "/disco-pano.jpg",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQeZPZidJZ38jEhIlBLVUOb2IW-1SwcdG-oyaY13EW14mwmayzxLaJ0Rvb17up8",
       },
       {
         name: "Disco de Papel",
         description:
           "Base de papel resistente para uso geral. Ótimo custo-benefício para trabalhos de acabamento e preparação de superfícies.",
-        image: "/disco-papel.jpg",
+        image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3jkJ7lw_hqJIFXFXGWY6TZgEHHog3qIRkyF1xpckasO7Ny3qaBjN3n9LrRwF8",
       },
     ],
   },
   "cintas-de-lixa": {
     title: "Cintas de Lixa",
     description: "Cintas de alta resistência para lixadeiras industriais",
-    image: "/sanding-belt-industrial-abrasive.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_q_ZBldkI9FhK3COaA64KuKIC7NCrUrSIysdLvflrWvaFdkdi5Lef_cBkrSQe",
     fullDescription:
       "Cintas de lixa profissionais com emenda reforçada e grão de alta qualidade. Desenvolvidas para suportar as exigências de uso industrial contínuo, oferecendo máxima durabilidade e performance constante.",
     features: [
@@ -176,20 +176,20 @@ const products = {
         name: "Cinta Estreita",
         description:
           "Cintas com largura de 75mm a 100mm, ideais para lixadeiras portáteis e trabalhos de precisão em áreas menores.",
-        image: "/cinta-estreita.jpg",
+        image: "https://www.nortonabrasives.com/sites/mac3-acs-norton/files/styles/636x636/public/2024-08/69957339306%20LIXA%20ADALOX%20PANO%20K-131%200060%20CE%20610X75%20CX%20100_83272_0.webp?itok=AIrU0rl0",
       },
       {
         name: "Cinta Larga",
         description:
           "Cintas com largura de 150mm ou superior, desenvolvidas para lixadeiras industriais e grandes superfícies. Alta produtividade.",
-        image: "/cinta-larga.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_q_ZBldkI9FhK3COaA64KuKIC7NCrUrSIysdLvflrWvaFdkdi5Lef_cBkrSQe",
       },
     ],
   },
   "rolos-de-lixa": {
     title: "Rolos de Lixa",
     description: "Rolos versáteis para grandes superfícies e produção contínua",
-    image: "/sandpaper-roll-industrial-workshop.jpg",
+    image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5r2IG9TuBvqpT91fNefF_HX9Nlfx6Mu8HXhZhvUekVBY0N07l0q24AWwZLl72",
     fullDescription:
       "Rolos de lixa em metragem para máxima versatilidade. Corte no tamanho desejado e economize. Ideal para oficinas e indústrias que necessitam de grande volume de material abrasivo.",
     features: [
@@ -219,13 +219,13 @@ const products = {
         name: "Rolo de Pano",
         description:
           "Base de tecido flexível e resistente, ideal para superfícies irregulares e trabalhos que exigem maior durabilidade.",
-        image: "/rolo-pano.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIQBPTonsFZLDFnpAxxAPMRP9LvGE0TVQ3vIoiMMYHiMitQB4LQ2CVm7EyNhg",
       },
       {
         name: "Rolo de Papel",
         description:
           "Base de papel kraft de alta qualidade, perfeito para uso geral em madeira e massa. Excelente custo-benefício.",
-        image: "/rolo-papel.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5r2IG9TuBvqpT91fNefF_HX9Nlfx6Mu8HXhZhvUekVBY0N07l0q24AWwZLl72",
       },
     ],
 
@@ -291,25 +291,25 @@ const products = {
         name: "Roda PG para Inox",
         description:
           "Desenvolvida especialmente para polimento de aço inoxidável. Proporciona acabamento brilhante sem riscar a superfície.",
-        image: "/roda-pg-inox.jpg",
+        image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzlZHNR1b1c_9ugwUp38fv3YiFifJ2DNj4x0yqzeQlbreWbfqexQo6CsimedGr",
       },
       {
         name: "Roda PG para Joias e Semi-Joias",
         description:
           "Grão extrafino para polimento delicado de joias, semi-joias e metais preciosos. Acabamento espelhado profissional.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/roda-pg-joias-dgvqWodjcHCQtsIc54lttFAxiGEgtv.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3YYkJ9poHayXn1K9VnpiFtxSKjf5LfdiJVsz3td_-PHOrDkqzcPgn-1BCCDXF",
       },
       {
         name: "Roda PG com Aste",
         description:
           "Rodas montadas com aste para uso em micro-retíficas e furadeiras. Disponível em todas as medidas padrão.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/roda-pg-com-aste-bkWT0sb1SdZ9nVh5b6HZKilFwHM3FC.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZ0s4Bs5QJ_zWgtHkKAaE6QCVx0p4bwSsUufLc08c2SEVLa2JypigmSB5x2Vq4",
       },
       {
         name: "Roda PG sem Aste",
         description:
           "Rodas sem aste para montagem em mandris personalizados. Flexibilidade para diferentes aplicações industriais.",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/roda-pg-sem-aste-H3w2vqE22dkBubZfmSFEPU51j9B0gR.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbA-7rXwoAy7ClhP7yot9TAGqiWGz3VJAUezYiMmrRuKdEEplazwKcOMqs_K7C",
       },
     ],
 
@@ -317,7 +317,7 @@ const products = {
   "lixa-taquinho": {
     title: "Lixa Taquinho",
     description: "Lixa manual ergonômica para acabamento preciso",
-    image: "/lixa-taquinho-velcro-jeans.jpg",
+    image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSR2Mdakel6min6q_wMhkVjwC4nEnuAEyDb7XzoA4rfprH7qkSdxwNK9lu8PZ1F",
     fullDescription:
       "Lixa taquinho com base ergonômica e sistema de fixação por velcro. Ideal para trabalhos manuais que exigem precisão e conforto. Especialmente desenvolvida para acabamento de jeans e tecidos.",
     features: [
@@ -347,7 +347,7 @@ const products = {
         name: "Lixa Taquinho em Velcro para Jeans",
         description:
           "Sistema de fixação por velcro que permite troca rápida das lixas. Ideal para produção em série de jeans com efeitos desgastados.",
-        image: "/lixa-taquinho-velcro-jeans.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSR2Mdakel6min6q_wMhkVjwC4nEnuAEyDb7XzoA4rfprH7qkSdxwNK9lu8PZ1F",
       },
     ],
   },
@@ -384,20 +384,20 @@ const products = {
         name: "Lixa Taco em Disco para Granitina",
         description:
           "Formato de disco para uso em politrizes e máquinas rotativas. Ideal para grandes áreas e acabamento rápido.",
-        image: "/lixa-taco-disco.jpg",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5kQyfLKUlld0AQ5TQATuBXtwU-EFIOxs_yUy40WrZzJkNlOr_diXGNo4Tpl0t",
       },
       {
         name: "Lixa Taco em Rolo para Granitina",
         description:
           "Formato em rolo para corte sob medida. Versatilidade para diferentes tamanhos de tacos e aplicações manuais.",
-        image: "/lixa-taco-rolo.jpg",
+        image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdTxXNIyXx64-fej0osmDRHx6hYS8NvGdzhXnV2dsytyyjd_NzAKOPZ0Ezmp2h",
       },
     ],
   },
 "maquinas-pneumaticas": {
   "title": "Máquinas Pneumáticas",
   "description": "Ferramentas de ar comprimido para trabalhos profissionais e industriais",
-  "image": "/pneumatic-tools-industrial.jpg",
+  "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFt4efInMQoTprR4hR_em0HCL-N71nZIetRKklRXbOJF2DwRCHTdgeuKCKLWIS",
   "fullDescription": "Máquinas pneumáticas de alta performance alimentadas por ar comprimido. Ideais para aplicações industriais, oficinas e canteiros de obra. Oferecem potência, durabilidade e eficiência energética superior.",
   "features": [
     "Alimentação por ar comprimido",
@@ -430,42 +430,42 @@ const products = {
     {
       "name": "Pistola de Pintura Pneumática",
       "description": "Indicada para aplicação de tintas em superfícies metálicas, automotivas e industriais, garantindo acabamento uniforme.",
-      "image": "/pistola-pintura-pneumatica.jpg"
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfaPqSUnAf4SC29oRKBlkr6R_-oPSJ0WMuPp9cHxWFh0RSF85dO858_PgOkYQv"
     },
     {
       "name": "Chave de Impacto Pneumática",
       "description": "Ferramenta de alto torque para apertar e desapertar parafusos em trabalhos pesados. Ideal para indústria automotiva e manutenção.",
-      "image": "/chave-impacto-pneumatica.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWtAOKMy8pHLjztkIc1qZuliYs8IUQT5hzg-RQvRxANekjtVhcyM7ty6yQBmh1"
     },
     {
       "name": "Calibrador Pneumático",
       "description": "Equipamento para medição e ajuste preciso da pressão de pneus e sistemas pneumáticos.",
-      "image": "/calibrador-pneumatico.jpg"
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkMlCZlgLwP4rbFsr0PjUwTzsRfImFnxHRfF3uuN9h1OCfMmLpaWpQ1ibFCn9I"
     },
     {
       "name": "Tanque de Pressão para Pintura",
       "description": "Reservatório utilizado em conjunto com pistolas de pintura para maior autonomia e eficiência em aplicações contínuas.",
-      "image": "/tanque-pressao-pintura.jpg"
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFt4efInMQoTprR4hR_em0HCL-N71nZIetRKklRXbOJF2DwRCHTdgeuKCKLWIS"
     },
     {
       "name": "Parafusadeira Pneumática",
       "description": "Ferramenta leve e eficiente para montagem e desmontagem de estruturas metálicas e industriais.",
-      "image": "/parafusadeira-pneumatica.jpg"
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtayYqFyVbfcw6ZV6pjfMow2-0Bf7mGH6FuixXAuQJtuQAeBvweAzGNRjrcP6H"
     },
     {
       "name": "Grampeador Pneumático",
       "description": "Ideal para fixação rápida em carpintaria, estofaria e construção civil.",
-      "image": "/grampeador-pneumatico.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptzMyWZVppag6KZC8iGUVPLp5gbaHvUT_RP3O1AtlmfmrUkI2JTv8ZVxfref-"
     },
     {
       "name": "Pregador Pneumático",
       "description": "Utilizado para disparo de pregos em madeira e montagem rápida de estruturas.",
-      "image": "/pregador-pneumatico.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa56HwKa2YQovHgCj5rBklSXs0QyKs--aQsitnW-_rki6FXINnWIq_vwIfp2nD"
     },
     {
       "name": "Filtro Regulador Lubrificador (FRL)",
       "description": "Conjunto essencial para tratamento do ar comprimido, garantindo pressão adequada, filtragem e lubrificação das ferramentas.",
-      "image": "/filtro-regulador-lubrificador.jpg"
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEFVx_E_SLREyrI6Wce0s7N7RvJxzgF-64Bm0xZqbgL3LnHhT_jKwOrit6jv-F"
     }
   ]
 }
