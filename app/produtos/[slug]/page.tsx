@@ -394,67 +394,82 @@ const products = {
       },
     ],
   },
-  "maquinas-pneumaticas": {
-    title: "Máquinas Pneumáticas",
-    description: "Ferramentas de ar comprimido para trabalhos profissionais e industriais",
-    image: "/pneumatic-tools-industrial.jpg",
-    fullDescription:
-      "Máquinas pneumáticas de alta performance alimentadas por ar comprimido. Ideais para aplicações industriais, oficinas e canteiros de obra. Oferecem potência, durabilidade e eficiência energética superior.",
-    features: [
-      "Alimentação por ar comprimido",
-      "Alta potência e torque",
-      "Baixo peso e compactas",
-      "Durabilidade excepcional",
-      "Manutenção simples",
-      "Custo operacional reduzido",
-      "Segurança em ambientes explosivos",
-    ],
-    applications: [
-      "Parafusadeiras e chaves de impacto",
-      "Lixadeiras e politrizes",
-      "Furadeiras pneumáticas",
-      "Grampeadores e pregos",
-      "Esmerilhadoras",
-      "Canteiros de obra",
-      "Indústria automotiva",
-      "Manutenção industrial",
-    ],
-    specifications: [
-      { label: "Pressão de operação", value: "6 a 8 bar" },
-      { label: "Consumo de ar", value: "Variável conforme modelo" },
-      { label: "Potência", value: "0,5 a 3 HP" },
-      { label: "Velocidade", value: "Até 3000 RPM" },
-      { label: "Peso", value: "1,5 a 4 kg" },
-      { label: "Conexão", value: "Rosca 1/4\" ou 3/8\"" },
-    ],
-    varieties: [
-      {
-        name: "Chave de Impacto Pneumática",
-        description:
-          "Ferramenta de alto torque para apertar e desapertar parafusos em trabalhos pesados. Ideal para indústria automotiva e manutenção.",
-        image: "/chave-impacto-pneumatica.jpg",
-      },
-      {
-        name: "Lixadeira Pneumática Orbital",
-        description:
-          "Lixadeira de movimento orbital para acabamento fino em madeira e metal. Excelente para trabalhos de polimento e preparação de superfícies.",
-        image: "/lixadeira-orbital-pneumatica.jpg",
-      },
-      {
-        name: "Furadeira Pneumática",
-        description:
-          "Furadeira compacta e leve para furação em diversos materiais. Perfeita para trabalhos em altura e espaços reduzidos.",
-        image: "/furadeira-pneumatica.jpg",
-      },
-      {
-        name: "Grampeador Pneumático",
-        description:
-          "Ferramenta para fixação rápida de materiais. Ideal para carpintaria, estofaria e construção civil.",
-        image: "/grampeador-pneumatico.jpg",
-      },
-    ],
-  
-},
+"maquinas-pneumaticas": {
+  "title": "Máquinas Pneumáticas",
+  "description": "Ferramentas de ar comprimido para trabalhos profissionais e industriais",
+  "image": "/pneumatic-tools-industrial.jpg",
+  "fullDescription": "Máquinas pneumáticas de alta performance alimentadas por ar comprimido. Ideais para aplicações industriais, oficinas e canteiros de obra. Oferecem potência, durabilidade e eficiência energética superior.",
+  "features": [
+    "Alimentação por ar comprimido",
+    "Alta potência e torque",
+    "Baixo peso e compactas",
+    "Durabilidade excepcional",
+    "Manutenção simples",
+    "Custo operacional reduzido",
+    "Segurança em ambientes explosivos"
+  ],
+  "applications": [
+    "Parafusadeiras e chaves de impacto",
+    "Lixadeiras e politrizes",
+    "Furadeiras pneumáticas",
+    "Grampeadores e pregadores",
+    "Esmerilhadoras",
+    "Canteiros de obra",
+    "Indústria automotiva",
+    "Manutenção industrial"
+  ],
+  "specifications": [
+    { "label": "Pressão de operação", "value": "6 a 8 bar" },
+    { "label": "Consumo de ar", "value": "Variável conforme modelo" },
+    { "label": "Potência", "value": "0,5 a 3 HP" },
+    { "label": "Velocidade", "value": "Até 3000 RPM" },
+    { "label": "Peso", "value": "1,5 a 4 kg" },
+    { "label": "Conexão", "value": "Rosca 1/4\" ou 3/8\"" }
+  ],
+  "varieties": [
+    {
+      "name": "Pistola de Pintura Pneumática",
+      "description": "Indicada para aplicação de tintas em superfícies metálicas, automotivas e industriais, garantindo acabamento uniforme.",
+      "image": "/pistola-pintura-pneumatica.jpg"
+    },
+    {
+      "name": "Chave de Impacto Pneumática",
+      "description": "Ferramenta de alto torque para apertar e desapertar parafusos em trabalhos pesados. Ideal para indústria automotiva e manutenção.",
+      "image": "/chave-impacto-pneumatica.jpg"
+    },
+    {
+      "name": "Calibrador Pneumático",
+      "description": "Equipamento para medição e ajuste preciso da pressão de pneus e sistemas pneumáticos.",
+      "image": "/calibrador-pneumatico.jpg"
+    },
+    {
+      "name": "Tanque de Pressão para Pintura",
+      "description": "Reservatório utilizado em conjunto com pistolas de pintura para maior autonomia e eficiência em aplicações contínuas.",
+      "image": "/tanque-pressao-pintura.jpg"
+    },
+    {
+      "name": "Parafusadeira Pneumática",
+      "description": "Ferramenta leve e eficiente para montagem e desmontagem de estruturas metálicas e industriais.",
+      "image": "/parafusadeira-pneumatica.jpg"
+    },
+    {
+      "name": "Grampeador Pneumático",
+      "description": "Ideal para fixação rápida em carpintaria, estofaria e construção civil.",
+      "image": "/grampeador-pneumatico.jpg"
+    },
+    {
+      "name": "Pregador Pneumático",
+      "description": "Utilizado para disparo de pregos em madeira e montagem rápida de estruturas.",
+      "image": "/pregador-pneumatico.jpg"
+    },
+    {
+      "name": "Filtro Regulador Lubrificador (FRL)",
+      "description": "Conjunto essencial para tratamento do ar comprimido, garantindo pressão adequada, filtragem e lubrificação das ferramentas.",
+      "image": "/filtro-regulador-lubrificador.jpg"
+    }
+  ]
+}
+
 
 }
 
