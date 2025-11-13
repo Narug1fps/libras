@@ -6,8 +6,10 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Librás',
-  description: 'Librás site',
+  description: 'Librás a casa das lixas - Soluções abrasivas para todas as indústrias',
 }
+
+
 
 export default function RootLayout({
   children,

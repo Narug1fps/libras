@@ -516,6 +516,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <Button
             variant="outline"
             className="border-red-600 bg-transparent text-red-600 cursor-pointer hover:bg-red-600 hover:text-white"
+             onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
           >
             Solicitar Orçamento
           </Button>
@@ -545,7 +546,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <p className="mb-8 leading-relaxed text-gray-600">{product.fullDescription}</p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer">
+              <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer"
+               onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
                 Solicitar Orçamento
               </Button>
             </div>
@@ -645,7 +647,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
             Fale com nossos especialistas e receba um orçamento personalizado
           </p>
-          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer">
+          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer "  onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
             Falar com Especialista
           </Button>
         </div>

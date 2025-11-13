@@ -23,6 +23,9 @@ import { useEffect } from "react"
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+
+   
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       let ultimaPosicao = 0;
@@ -76,6 +79,7 @@ export default function Home() {
           <Button
             variant="outline"
             className="hidden border-red-600 cursor-pointer bg-transparent text-red-600 hover:bg-red-600 hover:text-white md:flex"
+            onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
           >
             Solicitar Orçamento
           </Button>
@@ -124,7 +128,8 @@ export default function Home() {
                 <Button
                   variant="outline"
                   className="w-full border-red-600 bg-transparent cursor-pointer text-red-600 hover:bg-red-600 hover:text-white"
-                  onClick={() => setMobileMenuOpen(false)}
+                 onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
+                  
                 >
                   Solicitar Orçamento
                 </Button>
@@ -169,6 +174,7 @@ export default function Home() {
               size="lg"
               variant="outline"
               className="border-gray-300 bg-transparent text-gray-900 hover:bg- cursor-pointer hover:text- hover:scale-110"
+               onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
             >
               Fale com Especialista
             </Button>
@@ -487,8 +493,8 @@ export default function Home() {
           <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600 text-balance">
             Fale com nossos especialistas e descubra a solução abrasiva ideal para seu projeto
           </p>
-          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer">
-            Solicitar Consultoria Gratuita
+          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer" onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
+            Solicitar Orçamento
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
@@ -507,7 +513,7 @@ export default function Home() {
               </p>
               <div className="mt-6 flex gap-3">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/p/Libr%C3%A1s-A-Casa-Das-Lixas-100064505036066/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 text-gray-600 transition-colors hover:border-red-600 hover:bg-red-600 hover:text-white"
@@ -515,23 +521,16 @@ export default function Home() {
                   <Facebook className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/libras.casadaslixas/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 text-gray-600 transition-colors hover:border-red-600 hover:bg-red-600 hover:text-white"
                 >
                   <Instagram className="h-5 w-5" />
                 </a>
+                
                 <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 text-gray-600 transition-colors hover:border-red-600 hover:bg-red-600 hover:text-white"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
-                <a
-                  href="mailto:contato@libras.com.br"
+                  href="mailto:adm@libraslixas.com.br"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 text-gray-600 transition-colors hover:border-red-600 hover:bg-red-600 hover:text-white"
                 >
                   <Mail className="h-5 w-5" />
@@ -584,7 +583,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-red-600">
+                  <a href="#" className="hover:text-red-600"  onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
                     Orçamento
                   </a>
                 </li>
@@ -594,8 +593,8 @@ export default function Home() {
             <div>
               <h4 className="mb-4 font-semibold">Contato</h4>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>(11) 3456-7890</li>
-                <li>contato@libras.com.br</li>
+                <li>(62) 3235-7122</li>
+                <li>adm@libraslixas.com.br</li>
                 <li>Seg-Sex: 8h às 18h</li>
                 <li>Sáb: 8h às 12h</li>
               </ul>
