@@ -1,4 +1,6 @@
 "use client"
+import type { Metadata } from 'next'
+import { SITE, WHATSAPP } from '../../../lib/seo'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -473,6 +475,38 @@ const products = {
 
 }
 
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const product = products[params.slug as keyof typeof products]
+
+  if (!product) {
+    return {
+      title: `Produto não encontrado — ${SITE.shortName}`,
+      description: SITE.description,
+    }
+  }
+
+  const url = `${SITE.url}/produtos/${params.slug}`
+
+  return {
+    title: `${product.title} — ${SITE.shortName}`,
+    description: product.description || product.fullDescription || SITE.description,
+    openGraph: {
+      title: product.title,
+      description: product.description || SITE.description,
+      url,
+      images: [{ url: product.image, alt: product.title }],
+      type: 'product',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.title,
+      description: product.description || SITE.description,
+      images: [product.image],
+    },
+    alternates: { canonical: url }
+  }
+}
+
 export default function ProductPage({ params }: { params: { slug: string } }) {
   const product = products[params.slug as keyof typeof products]
 
@@ -482,6 +516,28 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      // Inject JSON-LD Product schema for Google Rich Results
+      try {
+        const ld = {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: product.title,
+          description: product.fullDescription || product.description,
+          image: [product.image],
+          offers: {
+            "@type": "Offer",
+            url: window.location.href,
+          }
+        }
+
+        const script = document.createElement('script')
+        script.type = 'application/ld+json'
+        script.text = JSON.stringify(ld)
+        document.head.appendChild(script)
+      } catch (e) {
+        // ignore
+      }
+
       let ultimaPosicao = 0;
       window.addEventListener("scroll", () => {
         const nav: any = document.querySelector("#nav");
